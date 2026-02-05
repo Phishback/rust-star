@@ -1,1 +1,1 @@
-# Starcraft Broodwars Bot 
+# Starcraft Brood Wars Bot 
