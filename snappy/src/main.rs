@@ -2,7 +2,7 @@ extern crate libc;
 use libc::size_t;
 
 #[link(name = "snappy")]
-extern {
+unsafe extern "C" {
     fn snappy_max_compressed_length(source_length: size_t) -> size_t;
 }
 

@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/home/linuxbrew/.linuxbrew/opt/snappy/lib
+cargo:rustc-link-lib=snappy
+cargo:rustc-link-arg=-Wl,-rpath,/home/linuxbrew/.linuxbrew/opt/snappy/lib
